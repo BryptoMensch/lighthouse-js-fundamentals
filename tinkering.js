@@ -1,5 +1,6 @@
-const raining = true;
+const seasons = ["spring", "summer", "fall"];
+const length = seasons.length;
 
-if (raining) {
-  console.log("Don't forget your umbrella!");
-}
+seasons.push("winter");
+
+console.log(seasons.length);
